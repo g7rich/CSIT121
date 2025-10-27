@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styled Blog Reflections</title>
+    
+    <style>
+        
+        body {
+            background-color: #f7f7f7;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #ff5722;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 0.9em;
+            display: block;
+        }
+
+        #main-title {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #cccccc;
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 id="main-title">Web Standards Learning Journal</h1>
+        <p class="subtitle">A collection of reflections on HTML and CSS.</p>
+    </header>
+
+    <main>
+        
+        <article>
+            <h2>Module 3 Reflection: Introduction to CSS (H2)</h2>
+            <p class="subtitle">Published October 23, 2025</p>
+
+            <h3>The Power of Presentation (H3)</h3>
+            <p>Learning CSS has clarified the separation of concerns in web development. HTML gives content meaning, but CSS provides the visual identity. The most important lesson was mastering selectors—knowing when to use an Element selector (p), when to use a Class selector (.subtitle), and when to use an ID selector (#main-title) is critical for efficient styling.</p>
+
+            <p>Using the embedded method for this assignment was simple, but I see why using an external sheet is best for larger sites; keeping styles separate and easily updatable is a huge advantage of the cascade.</p>
+        </article>
+        
+        <article>
+            <h2>Module 2 Reflection: Semantic HTML (H2)</h2>
+            <p class="subtitle">Published October 23, 2025</p>
+
+            <h3>Structuring Content Correctly (H3)</h3>
+            <p>This lab confirmed that HTML is all about adding the proper meaning to content, not about how it looks. Using structural tags like &lt;header&gt;, &lt;main&gt;, &lt;article&gt;, and &lt;footer&gt; ensures the document's hierarchy is clear to search engines and accessibility tools.</p>
+            
+            <p>The core takeaway was remembering the appropriate use of list tags and headings, especially applying the correct semantic structural tags like &lt;header&gt; and &lt;footer&gt; rather than simply relying on &lt;div&gt; tags.</p>
+            
+            <p>For future reference, here are the required structural elements:</p>
+            <ol>
+                <li>Use a consistent heading structure (H1, H2, H3).</li>
+                <li>Always wrap the primary content in the &lt;main&gt; tag.</li>
+                <li>Ensure stand-alone content is inside an &lt;article&gt; tag.</li>
+            </ol>
+            
+            <p>Essential tools for this process included:</p>
+            <ul>
+                <li>The <a href="https://validator.w3.org/" target="_blank">W3C Validator</a>, which is essential for catching syntax errors.</li>
+                <li>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a> for tag definitions.</li>
+            </ul>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Richard Falana</p>
+    </footer>
+
+</body>
+</html>
